@@ -1,0 +1,179 @@
+[
+  {
+    "name": "Tshirt",
+    "price": 1000000.1,
+    "baseQuantity": 1,
+    "image": "tshirt.png",
+    "composition" : [
+      "100% cotton"
+    ],
+    "sizes" : [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors" : [
+      "red",
+      "blue",
+      "green",
+      "yellow"
+    ],
+    "description" : "Tshirt en peau de fesses",
+    "country" : "France"
+  },  {
+  "name": "Tshirt",
+  "price": 10,
+  "baseQuantity": 1,
+  "image": "tshirt.png",
+  "composition" : [
+    "100% cotton"
+  ],
+  "sizes" : [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "colors" : [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl ultricies nunc, nec aliquam nisl nunc eu nisl. Sed vitae nisl euismod, aliquam nis",
+  "country" : "France"
+},  {
+  "name": "Tshirt",
+  "price": 10,
+  "baseQuantity": 1,
+  "image": "tshirt.png",
+  "composition" : [
+    "100% cotton"
+  ],
+  "sizes" : [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "colors" : [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl ultricies nunc, nec aliquam nisl nunc eu nisl. Sed vitae nisl euismod, aliquam nis",
+  "country" : "France"
+},  {
+  "name": "Tshirt",
+  "price": 10,
+  "baseQuantity": 1,
+  "image": "tshirt.png",
+  "composition" : [
+    "100% cotton"
+  ],
+  "sizes" : [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "colors" : [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl ultricies nunc, nec aliquam nisl nunc eu nisl. Sed vitae nisl euismod, aliquam nis",
+  "country" : "France"
+},  {
+  "name": "Tshirt",
+  "price": 10,
+  "baseQuantity": 1,
+  "image": "tshirt.png",
+  "composition" : [
+    "100% cotton"
+  ],
+  "sizes" : [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "colors" : [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl ultricies nunc, nec aliquam nisl nunc eu nisl. Sed vitae nisl euismod, aliquam nis",
+  "country" : "France"
+},  {
+  "name": "Tshirt",
+  "price": 10,
+  "baseQuantity": 1,
+  "image": "tshirt.png",
+  "composition" : [
+    "100% cotton"
+  ],
+  "sizes" : [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "colors" : [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl ultricies nunc, nec aliquam nisl nunc eu nisl. Sed vitae nisl euismod, aliquam nis",
+  "country" : "France"
+},  {
+  "name": "Tshirt",
+  "price": 10,
+  "baseQuantity": 1,
+  "image": "tshirt.png",
+  "composition" : [
+    "100% cotton"
+  ],
+  "sizes" : [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "colors" : [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl ultricies nunc, nec aliquam nisl nunc eu nisl. Sed vitae nisl euismod, aliquam nis",
+  "country" : "France"
+},  {
+  "name": "Tshirt",
+  "price": 10,
+  "baseQuantity": 1,
+  "image": "tshirt.png",
+  "composition" : [
+    "100% cotton"
+  ],
+  "sizes" : [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "colors" : [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl ultricies nunc, nec aliquam nisl nunc eu nisl. Sed vitae nisl euismod, aliquam nis",
+  "country" : "France"
+}
+]
