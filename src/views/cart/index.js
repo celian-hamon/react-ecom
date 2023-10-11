@@ -1,3 +1,103 @@
+// import Navbar from "../../components/navbar/navbar";
+// import {routes} from "../../routes";
+// import React, {useState} from "react";
+// import {Box, useDisclosure} from "@chakra-ui/react";
+// export default function CartLayout(props) {
+//     console.log("routes");
+//     const {...rest} = props;
+//     const [fixed] = useState(false);
+//     const [navbar] = useDisclosure();
+//     const getActiveRoute = (routes) => {
+//         let activeRoute = 'Default Brand Text';
+//         for (let i = 0; i < routes.length; i++) {
+//             if (routes[i].collapse) {
+//                 let collapseActiveRoute = getActiveRoute(routes[i].items);
+//                 if (collapseActiveRoute !== activeRoute) {
+//                     return collapseActiveRoute;
+//                 }
+//             } else if (routes[i].category) {
+//                 let categoryActiveRoute = getActiveRoute(routes[i].items);
+//                 if (categoryActiveRoute !== activeRoute) {
+//                     return categoryActiveRoute;
+//                 }
+//             } else {
+//                 if (window.location.href.indexOf(routes[i].layout + routes[i].path) !== -1) {
+//                     return routes[i].name;
+//                 }
+//             }
+//         }
+//         return activeRoute;
+//     };
+//     const getActiveNavbar = (routes) => {
+//         let activeNavbar = false;
+//         for (let i = 0; i < routes.length; i++) {
+//             if (routes[i].collapse) {
+//                 let collapseActiveNavbar = getActiveNavbar(routes[i].items);
+//                 if (collapseActiveNavbar !== activeNavbar) {
+//                     return collapseActiveNavbar;
+//                 }
+//             } else if (routes[i].category) {
+//                 let categoryActiveNavbar = getActiveNavbar(routes[i].items);
+//                 if (categoryActiveNavbar !== activeNavbar) {
+//                     return categoryActiveNavbar;
+//                 }
+//             } else {
+//                 if (window.location.href.indexOf(routes[i].layout + routes[i].path) !== -1) {
+//                     return routes[i].secondary;
+//                 }
+//             }
+//         }
+//         return activeNavbar;
+//     };
+//     const getActiveNavbarText = (routes) => {
+//         let activeNavbar = false;
+//         for (let i = 0; i < routes.length; i++) {
+//             if (routes[i].collapse) {
+//                 let collapseActiveNavbar = getActiveNavbarText(routes[i].items);
+//                 if (collapseActiveNavbar !== activeNavbar) {
+//                     return collapseActiveNavbar;
+//                 }
+//             } else if (routes[i].category) {
+//                 let categoryActiveNavbar = getActiveNavbarText(routes[i].items);
+//                 if (categoryActiveNavbar !== activeNavbar) {
+//                     return categoryActiveNavbar;
+//                 }
+//             } else {
+//                 if (window.location.href.indexOf(routes[i].layout + routes[i].path) !== -1) {
+//                     return routes[i].messageNavbar;
+//                 }
+//             }
+//         }
+//         return activeNavbar;
+//     };
+//     const getRoutes = (routes) => {
+//         return routes.map((prop, key) => {
+//             if (prop.collapse) {
+//                 return getRoutes(prop.items);
+//             }
+//             if (prop.category) {
+//                 return getRoutes(prop.items);
+//             } else {
+//                 return null;
+//             }
+//         });
+//     };
+//     return (
+//             <Box pt={{base: "180px", md: "80px", xl: "80px"}}>
+//                 <Navbar
+//                     onOpen={navbar.onOpen}
+//                     logoText={'Horizon UI Dashboard PRO'}
+//                     brandText={getActiveRoute(routes)}
+//                     secondary={getActiveNavbar(routes)}
+//                     message={getActiveNavbarText(routes)}
+//                     fixed={fixed}
+//                     {...rest}
+//                 />
+//                 <div>test</div>
+//             </Box>
+//     );
+// }
+
 import {
     Box,
     Flex,
@@ -25,7 +125,7 @@ import {sizeof} from "stylis";
 import {CartContext} from "../../contexts/cartContext";
 
 
-export default function ShopLayout(props) {
+export default function CartLayout(props) {
     const {...rest} = props;
     document.documentElement.dir = 'ltr';
     document.documentElement.dir = 'ltr';

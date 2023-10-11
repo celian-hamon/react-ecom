@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
-import { ChakraProvider } from '@chakra-ui/react';
+import {HashRouter, Route, Switch, Redirect, Router, StaticRouter,} from 'react-router-dom';
+import {ChakraProvider} from '@chakra-ui/react';
 import theme from './theme/theme';
 import './assets/css/App.css';
 
-import { ThemeEditorProvider } from '@hypertheme-editor/chakra-ui';
+import {ThemeEditorProvider} from '@hypertheme-editor/chakra-ui';
 
 import ShopLayout from "./views/shop";
+import CartLayout from "./views/cart";
 
 ReactDOM.render(
     <ChakraProvider theme={theme}>
@@ -15,8 +16,9 @@ ReactDOM.render(
             <ThemeEditorProvider>
                 <HashRouter>
                     <Switch>
-                        <Route path={'/'} component={ShopLayout}/>
-
+                        <Route path={`/cart`} component={CartLayout} />
+                        <Route path={`/shop`} component={ShopLayout} />
+                        <Redirect from='/' to='/shop' />
                     </Switch>
                 </HashRouter>
             </ThemeEditorProvider>

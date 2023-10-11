@@ -1,6 +1,6 @@
 import {Icon} from "@chakra-ui/icons";
 import ShopLayout from "./views/shop";
-import {MdHome} from "react-icons/md";
+import {MdHome, MdShoppingCart} from "react-icons/md";
 
 export const routes = [
     {
@@ -8,6 +8,13 @@ export const routes = [
         layout: "/",
         path: "/",
         icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
+        component: ShopLayout,
+    },
+    {
+        name: "Cart page",
+        layout: "/cart",
+        path: "/cart",
+        icon: <Icon as={MdShoppingCart()} width='20px' height='20px' color='inherit' />,
         component: ShopLayout,
     },
 ]

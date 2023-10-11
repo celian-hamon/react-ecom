@@ -39,6 +39,7 @@ export default function Navbar(props) {
 
     return (
         <Box
+            zIndex='100'
             position={navbarPosition}
             boxShadow={navbarShadow}
             bg={navbarBg}
@@ -121,6 +122,7 @@ export default function Navbar(props) {
                         secondary={props.secondary}
                         fixed={props.fixed}
                         scrolled={scrolled}
+                        active={props.brandText}
                     />
                 </Box>
             </Flex>

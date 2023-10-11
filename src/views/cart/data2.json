@@ -1,12 +1,14 @@
 [
   {
     "id": 1,
-    "name": "Tshirt - MAL ALPHA",
+    "name": "Déguisement heisemberg de rouen",
     "price": 39.99,
     "baseQuantity": 1,
-    "image": "tshirt.jpg",
+    "image": "halowinberg.jpg",
     "composition": [
-      "100% po de fess"
+      "0% cotton",
+      "100% uranium",
+      "100% meth"
     ],
     "sizes": [
       "S",
@@ -28,7 +30,7 @@
     "name": "Krusty Burger",
     "price": 120.00,
     "baseQuantity": 1,
-    "image": "burger.jpg",
+    "image": "heisenberg.jpg",
     "composition": [
       "100% cotton"
     ],
@@ -51,7 +53,7 @@
   },
   {
     "id": 3,
-    "name": "Tshirt - NUMERIQUE (pas un vrais)",
+    "name": "Tshirt",
     "price": 10,
     "baseQuantity": 1,
     "image": "tshirt.png",
