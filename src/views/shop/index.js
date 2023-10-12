@@ -7,21 +7,18 @@ import {
     SimpleGrid,
     useDisclosure,
     ModalOverlay,
-    Modal, ModalHeader, ModalContent, ModalCloseButton, ModalBody, ModalFooter, Button, Image, Tab, TabList, Tabs, Link
+    Modal , ModalContent, ModalCloseButton, ModalBody, ModalFooter, Button, Image, Tab, TabList, Tabs,
 } from "@chakra-ui/react";
 import Banner from "./components/Banner";
 import Data from "./data"
 import Data2 from "./data2"
 import NFT from "./components/HistoryItem";
 import Navbar from "../../components/navbar/navbar";
-import {Route} from "react-router-dom";
 import {routes} from "../../routes";
 import React, {useState} from "react";
 import {Icon} from "@chakra-ui/icons";
 import {MdShoppingCart} from "react-icons/md";
 import {FaEuroSign} from "react-icons/fa";
-import {text} from "react-table/src/filterTypes";
-import {sizeof} from "stylis";
 import {CartContext} from "../../contexts/cartContext";
 
 
@@ -55,15 +52,17 @@ export default function ShopLayout(props) {
         "description": "Lorem",
         "country": "France"
     })
-    const [cart, setCart] = useState({items: []});
+    const [cart, setCart] = useState({items: JSON.parse(localStorage.getItem('cart')) || []});
     const emptyCart = () => {
         setCart({items: []})
+        localStorage.setItem('cart', JSON.stringify([]))
     }
 
     const deleteItem = (id) => {
         let list = cart.items
         list.splice(list.findIndex(item => item.localId === id), 1)
         setCart({items: list});
+        localStorage.setItem('cart', JSON.stringify(list))
     }
 
     function openModal(item) {
@@ -197,7 +196,6 @@ export default function ShopLayout(props) {
                     {...rest}
                 />
                 {/* Main Fields */}
-                <Link href="#/cart" >caezsesdrgftezrtfgd</Link>
                 <Modal isOpen={modal.isOpen} onClose={modal.onClose}>
                     <ModalOverlay/>
                     <ModalContent>

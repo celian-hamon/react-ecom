@@ -102,9 +102,9 @@ export default function HeaderLinks(props) {
                         minW={{base: 'unset', md: '400px', xl: '450px'}}
                         maxW={{base: '360px', md: 'unset'}}>
                         <Box display={"flex"} justifyContent={"space-between"} mb={"5px"}>
-                            <Text fontSize="2em" fontWeight="600" color={textColor}>
+                            <Link href={"#/cart"} fontSize="2em" fontWeight="600" color={textColor}>
                                 Cart
-                            </Text>
+                            </Link>
                             <Flex alignItems={"center"} onClick={function () {
                                 cart.emptyCart()
                             }}>
@@ -115,10 +115,9 @@ export default function HeaderLinks(props) {
                             </Flex>
 
                         </Box>
-                        <Flex flexDirection="column">
+                        <Flex flexDirection="column" overflowY={"scroll"} maxH={"50vh"}>
                             {
                                 cart.cart.items.map((item, index, key) => {
-                                    console.log(item)
                                     return (
                                         <MenuItem _hover={{bg: 'none'}} _focus={{bg: 'none'}} px="0" borderRadius="8px"
                                                   mt="5px">

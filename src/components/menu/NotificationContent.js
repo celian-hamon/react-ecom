@@ -1,6 +1,5 @@
 // chakra imports
-import {Icon, Flex, Text, useColorModeValue, Image, IconButton, Button} from "@chakra-ui/react";
-import {MdUpgrade} from "react-icons/md";
+import {Icon, Flex, Text, useColorModeValue, Image, Button} from "@chakra-ui/react";
 import React, {useContext} from "react";
 import {FaEuroSign, FaTrash} from "react-icons/fa";
 import {CartContext} from "../../contexts/cartContext";

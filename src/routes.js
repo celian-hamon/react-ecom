@@ -5,15 +5,15 @@ import {MdHome, MdShoppingCart} from "react-icons/md";
 export const routes = [
     {
         name: "Shop page",
-        layout: "/",
-        path: "/",
+        layout: "/shop",
+        path: "",
         icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
         component: ShopLayout,
     },
     {
         name: "Cart page",
         layout: "/cart",
-        path: "/cart",
+        path: "",
         icon: <Icon as={MdShoppingCart()} width='20px' height='20px' color='inherit' />,
         component: ShopLayout,
     },

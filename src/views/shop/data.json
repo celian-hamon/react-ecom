@@ -72,5 +72,28 @@
     ],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl ultricies nunc, nec aliquam nisl nunc eu nisl. Sed vitae nisl euismod, aliquam nis",
     "country": "France"
-  }
+  },  {
+  "id": 4,
+  "name": "Tshirt - MAL ALPHA",
+  "price": 39.99,
+  "baseQuantity": 1,
+  "image": "tshirt.jpg",
+  "composition": [
+    "100% po de fess"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "description": "Tshirt en peau de fesses",
+  "country": "France"
+}
 ]

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import {HashRouter, Route, Switch, Redirect, Router, StaticRouter,} from 'react-router-dom';
 import {ChakraProvider} from '@chakra-ui/react';
@@ -16,9 +16,9 @@ ReactDOM.render(
             <ThemeEditorProvider>
                 <HashRouter>
                     <Switch>
-                        <Route path={`/cart`} component={CartLayout} />
-                        <Route path={`/shop`} component={ShopLayout} />
-                        <Redirect from='/' to='/shop' />
+                        <Route path={`/cart`} component={CartLayout}/>
+                        <Route path={`/shop`} component={ShopLayout}/>
+                        <Redirect from='/' to='/shop'/>
                     </Switch>
                 </HashRouter>
             </ThemeEditorProvider>
